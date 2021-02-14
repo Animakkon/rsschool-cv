@@ -9,10 +9,11 @@ ___
 ### 23 y.o. girl begin career in Frontend pshere
 <br>
 
-| Section  |    Equals   |
+| Section | Equals |
 |---|---|
-|   <h6>Skills</h6>   | - HTML/HTML5  (60%) <br> - CSS (50%) <br> - JS (30%) <br> <br> <br> - Pug (45%) <br> - SCSS/SASS (40%)|
-|   <h6>Code examples</h6>   |   *8 kuy. Kata Reversed Strings* <br><code>function solution(str){<br>return str.split("").reverse().join("");<br>}</code>|
+| <h6>Skills</h6> | - HTML/HTML5  (60%) <br> - CSS (50%) <br> - JS (30%) <br> <br> <br> - Pug (45%) <br> - SCSS/SASS (40%) |
+| <h6>Code examples</h6> | *8 kuy. Kata Reversed Strings* <br><code>function solution(str){<br>return str.split("").reverse().join("");<br>}</code> |
+
 <br>
 
 #### Work experience
