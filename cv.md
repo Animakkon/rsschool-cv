@@ -16,7 +16,8 @@ ___
 <br>
 
 #### Work experience
-////
+1. Kuban State Agrarian University
+_since 2016_ - laborant
 <br>
 
 #### Education
