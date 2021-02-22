@@ -1,0 +1,25 @@
+body{
+    background-image: url("../img/background.jpg");
+}
+    .canvas{
+        background-color: white;
+    }
+
+@media screen and (min-width: 1600px) and (orientation: landscape) { 
+    .canvas{
+        width: 1445px;
+        margin: 70px auto;
+    }
+ }
+ @media screen and (max-width: 1000px) and (orientation: landscape) { 
+    .canvas{
+        width: 80%;
+        margin: 70px auto;
+    }
+ }
+
+
+.grid{
+    display: grid;
+    grid-template-rows: 800px 600px 700px;    
+}
