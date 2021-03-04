@@ -1,3 +1,20 @@
+@font-face{
+    font-family: "Marmelad";
+    src: url("../fonts/Marmelad-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Fascinate";
+    src: url("../fonts/Fascinate-Regular.ttf") format("truetype");
+    font-weight: 900;
+}
+@font-face{
+    font-family: "MarkaziText";
+    src: url("../fonts/MarkaziText-VariableFont_wght.ttf") format("truetype");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-image: url("../img/background.jpg");
     background-size: 70%;
@@ -10,17 +27,54 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
+
+    padding: 4% 6%;
 }
 
 .grid{
     display: grid;
-    grid-template-columns: 3fr 5fr;
+    grid-template-columns: 4fr 5fr;
+    column-gap: 3vw;
+    /*margin: 78px 89px 32px 74px;*/
 }
 
 .main-photo img{
-    width: 90%;
+    width: 95%;
     box-shadow: 10px 10px 0 #D5D8DE;
 }
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Marmelad";
+    text-align: center;
+}
+
+.about>div{
+    margin-bottom: 5%;
+}
+
+div .name{
+    margin: 0;
+    font-size: 8vw;
+}
+
+h2{
+    color: #575757;
+}
+
+.surname{
+    font-size: 6vw;
+}
+
+.about p{
+    font-family: "Fascinate";
+    font-size: 5vw;
+    color: #D5D8DE;
+}
+
+
 
 /*@media screen and (min-width: 1400px) and (orientation: landscape) { 
     .canvas{
