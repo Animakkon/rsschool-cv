@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Lada's Resume</title>
 </head>
 
@@ -23,7 +24,7 @@
                 <div>
                     <h1 class="name">LADA</h1>
                     <h2 class="surname">Dunskaya</h2>
-                </div> 
+                </div>
 
                 <p>23 y.o. beginner in Frontend sphere</p>
             </div>
@@ -32,25 +33,93 @@
         <main class="grid">
             <div clas="left">
                 <div id="Contacts">
-                    <h2>one</h2>
+                    <h2>Contacts</h2>
+                    <div class="block">
+                        <div class="element">
+                            <img src="./img/icons/phone.png" alt="">
+                            <a href="tel:+79898038336">+7-989-803-83-36</a>
+                        </div>
+                        <div class="element">
+                            <img src="./img/icons/mail.png" alt="">
+                            <a href="mailto:lada.dunskaya@mail.ru">lada.dunskaya@mail.ru</a>
+                        </div>
+                        <div class="element">
+                            <img src="./img/icons/github.png" alt="">
+                            <a href="https://github.com/Animakkon">https://github.com/Animakkon</a>
+                        </div>
+                    </div>
                 </div>
                 <div id="Education">
-                    <h2>three</h2>
+                    <h2>Education</h2>
+                    <ul>Kuban State Agrarian University
+                        <li> 2019 - 2021 magistry<br>"Applied informatics"</li>
+                        <li> 2015 - 2019 undergraduate<br> "Applied informatics"</li>
+                    </ul>
                 </div>
                 <div id="Work">
-                    <h2>two</h2>
+                    <h2>Work Experience</h2>
+                    <p>1. Kuban State Agrarian University</p>
+                    <p><i>since 2016</i> - laborant</p>
                 </div>
             </div>
             <div clas="right">
                 <div class="code-example">
-                    <h2>five</h2>
+                    <h2>Code Example</h2>
+                    <p>Simple, given a string of words, return the length of the shortest word(s).</p>
+                    <a href="https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9" target="blank"><b>Shortest Word</b>
+                        7 Kuy Kata</a>
+                    <div>
+                        <code>
+                            function findShort(s) {<br>
+                                return Math.min.apply(Math, s.split(" ").map(value => value.length));
+                            }
+                        </code>
+                    </div>
                 </div>
                 <div id="Skills">
-                    <h2>four</h2>
+                    <h2>Skills</h2>
+                    <div class="elements">
+                        <div class="elements__element">
+                            <p>HTML</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="elements__element">
+                            <p>CSS</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="elements__element">
+                            <p>JS</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="elements__element">
+                            <p>PUG + SASS</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+
                 </div>
                 <div id="english-level">
-                    <h2>two</h2>
-                </div </div>
+                    <h2>English level</h2>
+                    <p>Beginner - Pre-Intermediate</p>
+                                 
+                </div>
+            </div>
 
         </main>
 
