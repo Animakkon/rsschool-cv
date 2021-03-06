@@ -76,6 +76,11 @@ h2{
 
 
 
+
+.checked {
+    color: #D5D8DE;
+  }
+
 /*@media screen and (min-width: 1400px) and (orientation: landscape) { 
     .canvas{
         width: 1445px;
