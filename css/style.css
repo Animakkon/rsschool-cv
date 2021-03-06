@@ -11,6 +11,17 @@
     font-family: "MarkaziText";
     src: url("../fonts/MarkaziText-VariableFont_wght.ttf") format("truetype");
 }
+
+
+h2{
+    color: #575757;
+    font-family: "Marmelad";
+}
+
+p, ul{
+    font-family: "MarkaziText";
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -47,7 +58,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: "Marmelad";
     text-align: center;
 }
 
@@ -58,10 +68,6 @@ body{
 div .name{
     margin: 0;
     font-size: 8vw;
-}
-
-h2{
-    color: #575757;
 }
 
 .surname{
