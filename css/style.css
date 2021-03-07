@@ -174,17 +174,59 @@ section{
   footer img{
       width: 100px;
   }
-/*@media screen and (min-width: 1400px) and (orientation: landscape) { 
-    .canvas{
-        width: 1445px;
-        margin: 70px auto;
+
+@media (max-width: 320px){
+    .grid:nth-child(2){
+        display: block;
     }
- }
- @media screen and (max-width: 1000px) and (orientation: landscape) { 
-    .canvas{
-        width: 80%;
-        margin: 70px auto;
+    section{
+        height: max-content;
     }
- }*/
+    .block{
+        width: 180px;
+        margin: auto;
+    }
+    section .element img{
+        width: 20px;
+        height: 20px;
+    }
+    #Education p, #Education ul{
+        width: 180px;
+        margin: 5px auto; 
+        text-align: left;
+    }
+
+    #Skills .elements{
+        display: block;
+        text-align: center;
+    }
+
+    .elements__element{
+        
+        margin: auto;
+    }
+
+    span{
+        width: fit-content;
+    }
+
+    .code-example .block *{
+        width: 180px;
+        margin: auto;
+    }
+
+    main h2{
+        font-size: 15px;
+        text-align: left;
+    }
+
+    p, a, ul li{
+        font-size: 16px;
+    }
+
+    footer img{
+        width: 30px;
+    }
+}
 
 
