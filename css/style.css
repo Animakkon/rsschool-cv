@@ -175,7 +175,7 @@ section{
       width: 100px;
   }
 
-@media (max-width: 320px){
+@media (max-width: 480px){
     .grid:nth-child(2){
         display: block;
     }
