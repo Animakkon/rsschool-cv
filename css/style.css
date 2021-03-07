@@ -52,7 +52,7 @@ body{
 
     margin: 5% auto 5% auto;
 
-    padding: 4% 6%;
+    padding: 4% 6% 0 6%;
 
     box-shadow: 5px 15px 35px rgb(136, 136, 136);
 }
@@ -64,6 +64,10 @@ body{
     margin-bottom: 10%;
     
     /*margin: 78px 89px 32px 74px;*/
+}
+
+.grid:nth-child(2){
+    margin: 0;
 }
 
 .main-photo img{
@@ -161,6 +165,15 @@ section{
     color: #D5D8DE;
   }
 
+  footer{
+      padding: 10px;
+      text-align: center;
+
+  }
+
+  footer img{
+      width: 100px;
+  }
 /*@media screen and (min-width: 1400px) and (orientation: landscape) { 
     .canvas{
         width: 1445px;
