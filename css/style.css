@@ -46,9 +46,8 @@ body{
     background-color: white;
 
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
+
+    margin: 5% auto 5% auto;
 
     padding: 4% 6%;
 
@@ -102,7 +101,7 @@ section{
 
 @media (min-width: 1200px){
     section{
-        height: 350px;
+        height: 400px;
         margin-bottom: 10px;
     }
 }
@@ -120,18 +119,36 @@ section{
 }
 
 .element img{
-    width: 50px;
+    width: 70px;
     margin-right: 5%;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px){ 
     .element img{
-        width: 20px;
+        width: 40px;
     }
 }
 
 .element a{
     align-self: center;
+}
+
+.code{
+    padding: 5px;
+    background-color: #D5D8DE;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#Skills
+.block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.elements__element{
+    margin: 0 50px 20px 0;
+
 }
 
 .checked {
