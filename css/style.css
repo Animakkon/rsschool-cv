@@ -17,10 +17,20 @@ h2{
     color: #575757;
     font-family: "Marmelad";
     margin-bottom: 5%;
+
+    font-size: 3vw;
 }
 
-p, ul{
+p, ul, a{
     font-family: "MarkaziText";
+    color: #696969;
+
+    font-size: 2vw;
+
+}
+
+a{
+    text-decoration: none;
 }
 
 *{
@@ -50,6 +60,7 @@ body{
     grid-template-columns: 4fr 5fr;
     column-gap: 3vw;
     margin-bottom: 10%;
+    
     /*margin: 78px 89px 32px 74px;*/
 }
 
@@ -84,11 +95,44 @@ div .name{
     color: #D5D8DE;
 }
 
+section{
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1200px){
+    section{
+        height: 350px;
+        margin-bottom: 10px;
+    }
+}
+
 .block, ul{
     width: fit-content;
     margin-left: 15%;
+
+    margin-bottom: 15%;
 }
 
+.element{
+    display: flex;
+    flex-direction: row;
+}
+
+.element img{
+    width: 50px;
+    margin-right: 5%;
+}
+
+@media (max-width: 1200px){
+    .element img{
+        width: 20px;
+    }
+}
+
+.element a{
+    align-self: center;
+}
 
 .checked {
     color: #D5D8DE;
