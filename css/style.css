@@ -26,7 +26,10 @@ p, ul, a{
     color: #696969;
 
     font-size: 2vw;
+}
 
+#Education p{
+    margin-left: 15%;
 }
 
 a{
@@ -120,17 +123,20 @@ section{
 
 .element img{
     width: 70px;
-    margin-right: 5%;
+    height: 70px;
 }
 
 @media (max-width: 1200px){ 
     .element img{
         width: 40px;
+        height: 40px;
     }
 }
 
 .element a{
     align-self: center;
+    
+    margin-left: 5%;
 }
 
 .code{
